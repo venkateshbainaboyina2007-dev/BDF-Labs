@@ -1,0 +1,58 @@
+### Get all books
+GET http://localhost:3000/books/
+
+### Get one book
+GET http://localhost:3000/books/15/
+
+
+
+
+
+
+
+
+
+
+
+
+### Add a book
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+    "title": "JavaScript Basics",
+    "author": "John Smith",
+    "price": 350,
+    "pages": 250
+}
+
+
+
+
+
+
+
+
+
+
+
+### Update a book
+PUT http://localhost:3000/books/11/
+Content-Type: application/json
+
+{
+    "title": "JavaScript Advanced",
+    "author": "John Smith",
+    "price": 500,
+    "pages": 300
+}
+
+
+
+
+
+
+
+
+### Delete a book
+DELETE http://localhost:3000/books/12/
