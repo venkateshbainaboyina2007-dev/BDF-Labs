@@ -6,7 +6,7 @@
 
 ## Live Link
 
-https://bdf-labs-126m.onrender.com
+https://lab-02-qcdx.onrender.com
 
 ## Project Description
 
